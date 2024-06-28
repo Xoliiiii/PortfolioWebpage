@@ -14,3 +14,13 @@ hr{
     position:absolute;
     left:240px;
 }
+
+.header{
+    position:absolute;
+    left:300px;
+    top:250px;
+}
+
+.websiteLogo{
+    width:150px;
+}

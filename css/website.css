@@ -5,9 +5,17 @@ body {
 a{
     text-decoration:none;
     color:black;
+    font-size:25px;
+    margin-left:15px;
 }
 
 .websiteImage{
     position:absolute;
     top:270px;
+}
+
+.navigation{
+    position:absolute;
+    left:1240px;
+    top:50px;
 }
