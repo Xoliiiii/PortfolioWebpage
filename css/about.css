@@ -1,0 +1,33 @@
+p{
+    font-size:20px;
+}
+
+.heading{ 
+    position:absolute;
+    left:800px;
+}
+
+.coding , .webDevelopment , .responsiveWeb{
+    max-width:400px;
+    height:auto; 
+}
+
+.certificate { 
+    position:absolute;
+    left:200px;
+}
+
+.getToKnow{
+    position:absolute; 
+    top: 600px;
+    font-size:20px;
+    text-align:justify;
+}
+
+.websiteImage{
+    position:absolute;
+    top:800px;
+}
+
+
+
