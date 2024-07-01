@@ -29,5 +29,15 @@ p{
     top:800px;
 }
 
+.challenge {
+    position:absolute;
+    left: 500px;
+}
+
+.hobbies{
+    position:absolute; 
+    left:500px; 
+    top:500px;
+}
 
 
