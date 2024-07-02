@@ -17,13 +17,13 @@ h3{
     padding: 20px;
 }
 
-.project {
+/* .project {
     border: 1px solid #eaeaea;
     border-radius: 8px;
     background-color: #f9f9f9;
     margin-bottom: 30px;
     padding: 20px;
-}
+} */
 
 .project h5 {
     font-size: 1.5rem;
@@ -50,7 +50,7 @@ h3{
 
 .websiteImg{
     position:absolute;
-    top:750px;
+    top:850px;
 }
 
 .submitBtn{
