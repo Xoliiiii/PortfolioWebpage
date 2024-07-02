@@ -9,6 +9,9 @@
     <title>Projects | Xolisa Nunge</title>
 </head>
 <body>
+    <div class="logo">
+        <img src="img/websiteLogo.png" alt="logo" class="websiteLogo">
+    </div>
     <div class="navigation">
         <a href="index.html">HOME</a>
         <a href="about.html">ABOUT</a>
@@ -19,49 +22,59 @@
         <h3>PROJECTS</h3>
         <hr/>
     </div>
-    <div class="projects">
-        <div class="row">
-            <div class="col-6">
-                <h5>PROJECT NAME</h5>
-                <br/>
-                <p></p>
-            </div>
-            <div class="col-6">
-                <img src="" alt="project img">
-                <br/>
-                <button>Learn More</button>
-            </div>
-        </div>
-    </div>
-    <div class="projects">
-        <div class="row">
-            <div class="col-6">
-                <h5>PROJECT NAME</h5>
-                <br/>
-                <p></p>
-            </div>
-            <div class="col-6">
-                <img src="" alt="project img">
-                <br/>
-                <button>Learn More</button>
+    <br><br><br><br><br>
+    <div class="portfolio mt-5">
+        <div class="project mb-5 py-4 px-3">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h5>WEATHER APP</h5>
+                    <p>
+                        Melody Maker is a web application designed to spark creativity and exploration in music creation.
+                        Users can experiment with a variety of instruments and loops, drag-and-drop to build melodies, and even
+                        collaborate with others in real-time. It's a fun and accessible platform for anyone to create music,
+                        regardless of their musical background.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/weatherApp.jpg" alt="project img" class="img-fluid mb-3">
+                    <button class="btn btn-primary">Learn More</button>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="websiteImage">
+        <div class="project mb-5 py-4 px-3">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h5>PROJECT NAME</h5>
+                    <p>
+                        Melody Maker is a web application designed to spark creativity and exploration in music creation.
+                        Users can experiment with a variety of instruments and loops, drag-and-drop to build melodies, and even
+                        collaborate with others in real-time. It's a fun and accessible platform for anyone to create music,
+                        regardless of their musical background.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/projectImage.jpg" alt="project img" class="img-fluid mb-3">
+                    <button class="btn btn-primary">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="websiteImg">
         <img src="img/websiteImage.png" alt="website">
     </div>
 <div class="contact">
-    <h5>CONTACT ME</h5>
-    <form>
-    <input type="text" id="name" name="name"/>
-    <input type="text" id="surname" name="surname"/>
+    <h3>
+        <b>CONTACT ME</b>
+    </h3>
+    <form action method="post">
+    <input type="text" id="name" name="name" required/>
+    <input type="text" id="surname" name="surname" required/>
     <br/>
-    <input type="email" id="email" name="email"/>
+    <input type="email" id="email" name="email" required/>
     <br/>
-    <input type="text" id="message" name="message"/>
+    <textarea id="message" name="message" rows="5" required></textarea></textarea>
     <br/>
-    <button>Submit</button>
+   <input type="submit" value="Submit" class="submitBtn">
 </form>    
 </div>
 </body>
