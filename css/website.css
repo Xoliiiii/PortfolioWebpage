@@ -22,3 +22,10 @@ a{
 .websiteLogo{
     width:150px;
 }
+
+.nav-link{
+    text-decoration:none;
+    color:black;
+    font-size:25px;
+    margin-left:15px; 
+}

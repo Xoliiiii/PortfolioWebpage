@@ -21,3 +21,54 @@ hr{
     top:250px;
 }
 
+
+@media (max-width:575.98px){
+    h1{
+        font-size:120px;
+        margin-left:120px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav .menu {
+        flex-direction: column;
+        width: 100%;
+    }
+    nav .menu a {
+        padding: 0.5rem 0;
+    }
+
+    div.container-fluid{
+        width:1380px;
+    }
+
+    hr{
+        height:2px;
+        background-color:#E66889;
+        border:none;
+
+    }
+
+    .header{
+        font-size:100px;
+        position:absolute;
+        top:1080px;
+
+    }
+
+    .title{
+        position:absolute;
+        left:140px;
+    }
+
+    
+
+    .websiteImage{
+       position:absolute;
+       top:2410px;
+    }
+
+
+}
