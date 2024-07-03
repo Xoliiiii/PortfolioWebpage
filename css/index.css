@@ -63,7 +63,9 @@ hr{
         left:140px;
     }
 
-    
+    .websiteImg{
+        width:100px;
+    }
 
     .websiteImage{
        position:absolute;
