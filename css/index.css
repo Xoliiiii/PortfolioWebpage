@@ -51,6 +51,14 @@ hr{
 
     }
 
+    a.nav-link{
+        font-size:60px;
+    }
+
+    a.nav-link.active{
+        font-size:60px;
+    }
+
     .header{
         font-size:100px;
         position:absolute;
@@ -75,6 +83,8 @@ hr{
     .websiteLogo{
         width:350px;
     }
+
+ 
 
 
 }
