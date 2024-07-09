@@ -1,43 +1,132 @@
-p{
-    font-size:20px;
+p {
+    font-size: 20px;
 }
 
-.heading{ 
-    position:absolute;
-    left:800px;
+.heading {
+    position: absolute;
+    left: 800px;
 }
 
-.coding , .webDevelopment , .responsiveWeb{
-    max-width:400px;
-    height:auto; 
+.coding, .webDevelopment, .responsiveWeb {
+    max-width: 400px;
+    height: auto;
 }
 
-.certificate { 
-    position:absolute;
-    left:300px;
+.getToKnow {
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    top: 100px;
+    left: 5px;
 }
 
-.getToKnow{
-    position:absolute; 
-    top: 600px;
-    font-size:20px;
-    text-align:justify;
-}
-
-.websiteImage{
-    position:absolute;
-    top:800px;
+.websiteImage {
+    position: absolute;
+    top: 1350px;
 }
 
 .challenge {
-    position:absolute;
+    position: absolute;
     left: 500px;
 }
 
-.hobbies{
-    position:absolute; 
-    left:500px; 
-    top:520px;
+.hobbies {
+    position: absolute; 
+    left: 500px; 
+    top: 520px;
 }
 
+.certificate {
+    background-color: #E8727F;
+    padding: 80px;
+    position: relative;
+    top: 134px;
+}
 
+.Xolisa {
+    max-width: 400px;
+    height: auto;
+}
+
+.contact {
+    position: relative;
+    left: 600px;
+    top: 50px;
+    border: 1px solid black;
+    padding: 30px;
+    max-width: fit-content;
+}
+
+.submitBtn {
+    margin-left: 116px;
+    width: 200px;
+    margin-top: 15px;
+}
+
+#name {
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#surname {
+    height: 35px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#email {
+    height: 35px;
+    margin-bottom: 10px;
+    width: 418px;
+}
+
+#message {
+    margin-bottom: 10px;
+    width: 418px;
+    height: 200px;
+}
+
+@media (max-width: 575.98px) {
+    .websiteImg {
+        width: 1000px;
+    }
+
+    .websiteImage {
+        position: absolute;
+        top: 1700px;
+    }
+
+    /* Adjust other elements for mobile view */
+    .heading {
+        left: 0;
+        top: 0;
+        position: relative;
+        text-align: center;
+    }
+
+    .getToKnow, .challenge, .hobbies, .certificate, .contact {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .certificate {
+        padding: 40px;
+    }
+
+    .contact {
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .submitBtn {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #email, #message {
+        width: 100%;
+    }
+}
