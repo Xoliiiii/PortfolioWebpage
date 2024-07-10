@@ -61,13 +61,16 @@ p {
     border-radius: 5px;
 }
 
-.submitBtn {
-    margin-left: 116px;
-    width: 200px;
-    margin-top: 15px;
-    padding: 10px;
+.btnSubmit {
+    color:white;
     background-color: #F3C523;
     border: 1px solid #F3C523;
+    transition:all 1ms ease-in-out;
+}
+
+.btnSubmit:hover{
+    color:#F3C523;
+    background-color:white;
 }
 
 
@@ -85,12 +88,12 @@ p {
 #email {
     height: 35px;
     margin-bottom: 10px;
-    width: 418px;
+    width: 1311px;
 }
 
 #message {
     margin-bottom: 10px;
-    width: 418px;
+    width: 1311px;
     height: 200px;
 }
 
