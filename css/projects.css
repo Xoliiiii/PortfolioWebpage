@@ -89,6 +89,9 @@ h3 {
     .btnWeather {
         width: 100%;
         margin-bottom: 20px;
+        color:white;
+        background-color:#E95BAD;
+        
     }
 
     .websiteImg {
