@@ -1,26 +1,39 @@
-h3{
-    margin-left:70px;
-    margin-bottom:25px;
+h3 {
+    margin-left: 70px;
+    margin-bottom: 25px;
 }
-.heading{ 
-    position:absolute;
-    left:800px;
+.heading {
+    position: absolute;
+    left: 800px;
 }
 
+.btnWeather {
+    color: white;
+    background-color: #E95BAD;
+    border: 1px solid #E95BAD;
+    transition: all 1ms ease-in-out;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+}
 
-/* projects.css */
+.btnWeather:hover {
+    background: white;
+    color: #E95BAD;
+    border: 1px solid #E95BAD;
+}
+
+.learn:hover {
+    color: #E95BAD;
+}
+
+.learn {
+    color: white;
+}
 
 .portfolio {
     padding: 20px;
 }
-
-/* .project {
-    border: 1px solid #eaeaea;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    margin-bottom: 30px;
-    padding: 20px;
-} */
 
 .project h5 {
     font-size: 1.5rem;
@@ -43,10 +56,44 @@ h3{
     margin-top: 15px;
 }
 
-
-
-.websiteImg{
-    position:absolute;
-    top:850px;
+.websiteImg {
+    position: absolute;
+    top: 850px;
 }
 
+@media (max-width: 575.98px) {
+    .heading {
+        position: static;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .portfolio {
+        padding: 10px;
+    }
+
+    .project h5 {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .project p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .project img {
+        margin: 0 auto;
+    }
+
+    .btnWeather {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .websiteImg {
+        position: static;
+        width: 100%;
+        margin-top: 30px;
+    }
+}

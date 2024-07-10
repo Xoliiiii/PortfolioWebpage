@@ -70,6 +70,7 @@ p {
     border: 1px solid #F3C523;
 }
 
+
 #name {
     height: 35px;
     margin-bottom: 10px;
@@ -113,10 +114,12 @@ p {
 
     .getToKnow, .challenge, .hobbies, .certificate, .contact {
         position: relative;
-        left: 0;
-        top: 0;
         width: 100%;
         padding: 10px;
+    }
+
+    .getToKnow{
+        text-align:center;
     }
 
     .certificate {
@@ -128,10 +131,13 @@ p {
         width: auto;
     }
 
-    .submitBtn {
-        margin-left: 0;
-        width: 100%;
+    .btnSubmit{
+        background-color:#F3C523;
+        border:1px solid #F3C523;
+        border-radius:5px;
+        color:white;
     }
+
 
     #email, #message {
         width: 100%;

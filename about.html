@@ -28,58 +28,73 @@
                     <li class="nav-item">
                         <a class="nav-link" href="projects.html">Projects</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="heading">
-        <h3>ABOUT ME</h3>
-        <hr/>
-    </div>
-    <div class="about-content">
-        <div class="getToKnow">
-            <div class="row">
-                <div class="col-12 col-md-7">
-                    While still honing my skills in the tech field, I'm a detail-oriented learner who thrives on challenges. Strengths like project management and adaptability allow me to excel in both independent and collaborative work, always finding efficient solutions. I'm actively working on improving discipline and avoiding taking on too much at once (even though my curiosity can sometimes lead to that!). But hey, that's part of the learning process, right?
-
-                    Front-end development feels like a creative outlet for me.  Just like an artist, I use code (my brush) to bring design visions to life, combining color theory, composition, and even a touch of user psychology to craft engaging interfaces.  The transformation from static design to interactive experience is incredibly rewarding.  It's the perfect blend of my design passion and technical skills, making front-end development the ideal fit.
-
-                    As a naturally curious learner, I sometimes juggle multiple coding projects. While this keeps things exciting and allows me to explore various areas, it can also lead to a heavy workload. To address this, I've improved my project management by prioritizing tasks and setting realistic deadlines.  It's a constant learning curve, but it helps me channel my curiosity into focused progress.
-
-                    In my free time, I unwind and let my imagination flow. There's nothing like relaxing with a good book and music.  Recently, I discovered a fun way to unleash my creativity in a different way: playing The Sims!  It allows me to design dream homes and craft stories for my virtual characters.
-                </div>
-                <div class="col-12 col-md-5">
-                    <img src="img/xoli.jpg" alt="Xolisa" class="Xolisa">
-                </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3>ABOUT ME</h3>
+                <hr/>
             </div>
         </div>
-    </div>
-    <div class="certificate">
-        <img src="img/coding.png" alt="Intro to Coding" class="coding">
-        <img src="img/webdevelopment.png" alt="Web Development" class="webDevelopment">
-        <img src="img/responsive.png" alt="Responsive Web Deveolpment" class="responsiveWeb">
-    </div>
-    <br><br><br><br><br>
-    <div class="contact">
-        <h3>
-            <b>CONTACT ME</b>
-        </h3>
-        <form action="https://formspree.io/f/xkgwnjey" method="post">
-            <input type="text" id="name" name="name" required/>
-            <input type="text" id="surname" name="surname" required/>
-            <br/>
-            <input type="email" id="email" name="email" required/>
-            <br/>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            <br/>
-            <input type="submit" value="Submit" class="submitBtn">
-        </form>    
-    </div>
-    <div class="websiteImage">
-        <img src="img/websiteImage.png" alt="website" class="websiteImg">
+        <div class="row mt-4">
+            <div class="col-12 col-md-7">
+                <p class="about-text">
+                    While still honing my skills in the tech field, I'm a detail-oriented learner who thrives on challenges. Strengths like project management and adaptability allow me to excel in both independent and collaborative work, always finding efficient solutions. I'm actively working on improving discipline and avoiding taking on too much at once (even though my curiosity can sometimes lead to that!). But hey, that's part of the learning process, right?
+                    <br><br>
+                    Front-end development feels like a creative outlet for me. Just like an artist, I use code (my brush) to bring design visions to life, combining color theory, composition, and even a touch of user psychology to craft engaging interfaces. The transformation from static design to interactive experience is incredibly rewarding. It's the perfect blend of my design passion and technical skills, making front-end development the ideal fit.
+                    <br><br>
+                    As a naturally curious learner, I sometimes juggle multiple coding projects. While this keeps things exciting and allows me to explore various areas, it can also lead to a heavy workload. To address this, I've improved my project management by prioritizing tasks and setting realistic deadlines. It's a constant learning curve, but it helps me channel my curiosity into focused progress.
+                    <br><br>
+                    In my free time, I unwind and let my imagination flow. There's nothing like relaxing with a good book and music. Recently, I discovered a fun way to unleash my creativity in a different way: playing The Sims! It allows me to design dream homes and craft stories for my virtual characters.
+                </p>
+            </div>
+            <div class="col-12 col-md-5 text-center">
+                <img src="img/xoli.jpg" alt="Xolisa" class="img-fluid rounded shadow">
+            </div>
+        </div>
+        <div class="row mt-5 text-center">
+            <div class="col-12 col-md-4 mb-4">
+                <img src="img/coding.png" alt="Intro to Coding" class="img-fluid shadow rounded">
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <img src="img/webdevelopment.png" alt="Web Development" class="img-fluid shadow rounded">
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <img src="img/responsive.png" alt="Responsive Web Development" class="img-fluid shadow rounded">
+            </div>
+        </div>
+        <div class="row mt-5 text-center">
+            <div class="col-12">
+                <h3><b>CONTACT ME</b></h3>
+                <form action="https://formspree.io/f/xkgwnjey" method="post" class="mt-4">
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-3">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Name" required/>
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <input type="text" id="surname" name="surname" class="form-control" placeholder="Surname" required/>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required/>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <textarea id="message" name="message" rows="5" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <input type="submit" value="Submit" class=" w-100 btnSubmit">
+                        </div>
+                    </div>
+                </form>    
+            </div>
+        </div>
+        <div class="row mt-5 text-center">
+            <div class="col-12">
+                <img src="img/websiteImage.png" alt="website" class="img-fluid">
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
